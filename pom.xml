@@ -78,7 +78,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+ <modules>
+     <module>patri-pojo</module>
+     <module>patri-controller</module>
+     <module>patri-restfulservice</module>
+     <module>patri-service</module>
+     <module>patri-utility</module>
+     <module>patri-persistence</module>
+ </modules>
     <build>
         <plugins>
             <plugin>
